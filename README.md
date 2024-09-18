@@ -1,7 +1,7 @@
 
 # BlockchainIG Task
 
-This project is an automated test for the [interview site][https://arielkiel.wixsite.com/interview](https://arielkiell.wixsite.com/interview)), developed using Java, Selenium WebDriver, Maven. The test follows the **Page Object Model** design pattern, ensuring modularity and reusability. Additionally, the test generates an Allure report for better visual insights into test execution.
+This project is an automated test for the [interview site](https://arielkiell.wixsite.com/interview), developed using Java, Selenium WebDriver, Maven. The test follows the **Page Object Model** design pattern, ensuring modularity and reusability. Additionally, the test generates an Allure report for better visual insights into test execution.
 
 ## Project Structure
 
