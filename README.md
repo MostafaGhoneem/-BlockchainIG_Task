@@ -61,4 +61,11 @@ This framework is designed to be extended further. Future enhancements could inc
 - **Dynamic Quantity Input via JSON**: A JSON file can be used to input the quantity of products dynamically. This will allow the framework to read the number of items to add and adjust the test accordingly.
   
   - A method could be added to accept an integer, loop through clicks until the quantity is reached, and then calculate the total price based on the product's price. The framework would then assert that the calculated total matches the displayed total.
-  
+
+
+## Output Folder
+
+The framework is designed to automatically create an `output` folder that includes logs and screenshots for each test step. This folder is cleared at the beginning of each test run to ensure fresh outputs.
+
+- If, for any reason, the folder is not created automatically, please manually create it at `output/screenshots`.
+
